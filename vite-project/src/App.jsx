@@ -1,15 +1,12 @@
-import './App.css'
-import ICardGallery from './components/ICardGallery.jsx'
+import './App.css';
+import ColorChange from './components/ColorChange.jsx';
 
 function App() {
-  return (
-    <div className="app">
-      <h1>Student Profile</h1>
-      <p className="subtitle">College Information Card</p>
-
-      <ICardGallery />
-    </div>
-  )
+    return (
+        <div>
+            <ColorChange />
+        </div>
+    );
 }
 
-export default App
+export default App;
