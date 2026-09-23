@@ -1,12 +1,13 @@
-import './App.css';
-import ColorChange from './components/ColorChange.jsx';
+import SetCollege from "./components/SetCollege";
+import SetName from "./components/SetName";
 
 function App() {
-    return (
-        <div>
-            <ColorChange />
-        </div>
-    );
+  return (
+    <>
+      <SetCollege />
+      <SetName />
+    </>
+  );
 }
 
 export default App;
