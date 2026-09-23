@@ -1,11 +1,9 @@
-import SetCollege from "./components/SetCollege";
-import SetName from "./components/SetName";
+import ImageManipulation from "./components/ImageManipulation";
 
 function App() {
   return (
     <>
-      <SetCollege />
-      <SetName />
+      <ImageManipulation />
     </>
   );
 }
